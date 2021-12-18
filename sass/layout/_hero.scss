@@ -1,0 +1,69 @@
+
+.hero {
+    padding: 118px 0;
+    text-align: center;
+    max-width: 1600px;  
+    margin: 0 auto;
+    background-color: #C4C4C4;
+//     background-image: linear-gradient(
+//                         rgba(47, 48, 58, 0.4),
+//                         rgba(47, 48, 58, 0.4)),
+//                         url(../images/hero.jpg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+    padding: 200px 0;
+    }
+}
+
+.hero__title {
+    width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    @include font ($fs:16px, $fw:900, $lh:1.62, $ls:0.06em);
+    text-transform: uppercase;
+    color:var(--second-title-text-color);
+}
+
+@media screen and (min-width:480px) {
+    .hero__title {
+        width: 360px;
+        @include font ($fs:26px, $fw:900, $lh:1.62, $ls:0.06em);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .hero__title {
+    width: 696px;
+    @include font ($fs:44px, $fw:900, $lh:1.36, $ls:0.06em);
+    }
+}
+
+
+
+.hero__btn {
+    min-width: 200px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    background-color:var(--text-accent);
+    color: var(--second-title-text-color);
+    font-family: inherit;
+    @include font ($fs:16px, $fw:700, $lh:1.87, $ls:0.06em);
+    cursor: pointer;
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: #188CE8;
+    }
+}

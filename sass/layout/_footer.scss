@@ -1,0 +1,124 @@
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:var(--background-color-dark) ;
+}
+
+.footer-container {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address__link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    @include font ($lh:1.71);
+    color: var(--second-title-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &--color-grey {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &:hover,
+    &:focus {
+        color: var(--text-accent);
+    }
+}
+
+.join {
+    width: 206px;
+}
+.join__title {
+    display: block;
+    margin-bottom: 20px;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
+    @include font ();
+    text-transform: uppercase;
+    color: var(--second-title-text-color);
+}
+
+.footer-form {
+    min-width : 570px;
+
+}
+.footer-form__title {
+    display: block;
+    margin-bottom: 20px;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
+    @include font ();
+    text-transform: uppercase;
+    color: var(--second-title-text-color);
+}
+
+.footer-form__box {
+    display: flex;
+
+}
+.footer-form__input {
+    min-width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    // font-size: 16px;
+    // line-height: 1.25;
+    // letter-spacing: 0.03em;
+    @include font ($fs:16px, $lh:1.25);
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        border-color:var(--text-accent) ;
+    }
+}
+
+
+.footer-form__btn {
+    display: flex;
+    font-family: inherit;
+    // font-size: 16px;
+    // line-height: 1.87;
+    // letter-spacing: 0.06em;
+    @include font ($fs:16px, $lh:1.87, $ls:0.06em);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:var(--text-accent);
+    color: var(--second-title-text-color);
+    cursor: pointer;
+    min-width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
+}
+
+
+.footer-form__icon { 
+    fill: currentColor;
+    margin-left: 10px;
+
+}

@@ -1,0 +1,21 @@
+p, ul, h1, h2, h3, h4 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+input {
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
