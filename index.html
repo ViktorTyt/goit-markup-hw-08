@@ -51,7 +51,7 @@
             <div class="mob-menu__container">
                 <!-- My logo block -->
                 <a href="WebStudio" class="logo logo__header">Web<span class="logo__dark">Studio</span></a>
-                <button class="mob-menu__button-open is-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <button class=" mob-menu__button-open menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                     <svg
                     width="40" 
                     height="40"
@@ -60,8 +60,8 @@
                     </svg>
                 </button>
             </div>
-            <div class="mob-menu">
-                <button class="mob-menu__button-close is-slose-menu">
+            <div class="mob-menu js-menu-container" id="mobile-menu">
+                <button class=" mob-menu__button-close menu-toggle js-close-menu">
                     <svg
                     width="40" 
                     height="40"
@@ -624,6 +624,9 @@
             </div>
         </div>
         <script src="./js/modal.js"></script>
-        <!-- <script src="./js/menu.js"></script> -->
+        <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+        <script src="./js/menu.js"></script> -->
     </body>
 </html>
