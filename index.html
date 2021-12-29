@@ -147,29 +147,57 @@
                 </div>
             </section>
             <!-- Works -->
-            <!-- <section class="section section--no-padding-top">
-            <div class="container">
+            <section class="section works__section section--no-padding-top">
+                <div class="container">
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="works">
                     <li class="works__item">
-                        <img src="./images/img1.jpg" alt="Создание сайтов" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/works-images/works-img1.jpg 1x,
+                                    ./images/works-images/works-img1-2x.jpg 2x
+                                "
+                                media="(min-width:1200px)"
+                            />
+                            <img src="./images/works-images/works-img1.jpg" alt="Создание сайтов">
+                        </picture>
                         <div class="works__thumb">
                             <p class="works__text">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="works__item">
-                        <img src="./images/img2.jpg" alt="Оптимизация сайтов под смартфон" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/works-images/works-img2.jpg 1x,
+                                    ./images/works-images/works-img2-2x.jpg 2x
+                                "
+                                media="(min-width:1200px)"
+                            />
+                            <img src="./images/works-images/works-img2.jpg" alt="Оптимизация сайтов под смартфон">
+                        </picture>
                         <div class="works__thumb">
                             <p class="works__text">Мобильные приложения</p>
                         </div>
                     </li>
-                    <li class="works__item"> <img src="./images/img3.jpg" alt="Оптимизация сайтов под планшет" width="370" height="294">
+                    <li class="works__item">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./images/works-images/works-img3.jpg 1x,
+                                    ./images/works-images/works-img3-2x.jpg 2x
+                                "
+                                media="(min-width:1200px)"
+                            />
+                            <img src="./images/works-images/works-img3.jpg" alt="Оптимизация сайтов под планшет">
+                        </picture>
                         <div class="works__thumb">
                             <p class="works__text">Дизайнерские решения</p>
                         </div>
                     </li>
                 </ul>
-            </div>
+                </div>
             </section>
             <!------------------ Team ---------------->
             <section class="section section--background-color-another">
@@ -180,28 +208,28 @@
                             <picture>
                                 <source
                                     srcset="
-                                        ./images/team-image/team-img1.jpg 1x,
-                                        ./images/team-image/team-img1-2x.jpg 2x
+                                        ./images/team-images/team-img1.jpg 1x,
+                                        ./images/team-images/team-img1-2x.jpg 2x
                                     "
                                     media="(min-width:1200px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img1-tab.jpg 1x,
-                                    ./images/team-image/team-img1-tab-2x.jpg 2x
+                                    ./images/team-images/team-img1-tab.jpg 1x,
+                                    ./images/team-images/team-img1-tab-2x.jpg 2x
                                 "
                                 media="(min-width:768px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img1-mob.jpg 1x,
-                                    ./images/team-image/team-img1-mob-2x.jpg 2x
+                                    ./images/team-images/team-img1-mob.jpg 1x,
+                                    ./images/team-images/team-img1-mob-2x.jpg 2x
                                 "
                                 media="(min-width:320px)"
                                 />
                                 <img 
                                 class="team__image" 
-                                src="./images/team-image/team-img1.jpg" 
+                                src="./images/team-images/team-img1.jpg" 
                                 alt="Фото Игоря Демьяненко"
                                 />
                             </picture>
@@ -244,28 +272,28 @@
                             <picture>
                                 <source
                                     srcset="
-                                        ./images/team-image/team-img2.jpg 1x,
-                                        ./images/team-image/team-img2-2x.jpg 2x
+                                        ./images/team-images/team-img2.jpg 1x,
+                                        ./images/team-images/team-img2-2x.jpg 2x
                                     "
                                     media="(min-width:1200px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img2-tab.jpg 1x,
-                                    ./images/team-image/team-img2-tab-2x.jpg 2x
+                                    ./images/team-images/team-img2-tab.jpg 1x,
+                                    ./images/team-images/team-img2-tab-2x.jpg 2x
                                 "
                                 media="(min-width:768px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img2-mob.jpg 1x,
-                                    ./images/team-image/team-img2-mob-2x.jpg 2x
+                                    ./images/team-images/team-img2-mob.jpg 1x,
+                                    ./images/team-images/team-img2-mob-2x.jpg 2x
                                 "
                                 media="(min-width:320px)"
                                 />
                                 <img 
                                 class="team__image" 
-                                src="./images/team-image/team-img2.jpg" 
+                                src="./images/team-images/team-img2.jpg" 
                                 alt="Фото Ольгы Репиной"
                                 />
                             </picture>
@@ -308,28 +336,28 @@
                             <picture>
                                 <source
                                     srcset="
-                                        ./images/team-image/team-img3.jpg 1x,
-                                        ./images/team-image/team-img3-2x.jpg 2x
+                                        ./images/team-images/team-img3.jpg 1x,
+                                        ./images/team-images/team-img3-2x.jpg 2x
                                     "
                                     media="(min-width:1200px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img3-tab.jpg 1x,
-                                    ./images/team-image/team-img3-tab-2x.jpg 2x
+                                    ./images/team-images/team-img3-tab.jpg 1x,
+                                    ./images/team-images/team-img3-tab-2x.jpg 2x
                                 "
                                 media="(min-width:768px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img3-mob.jpg 1x,
-                                    ./images/team-image/team-img3-mob-2x.jpg 2x
+                                    ./images/team-images/team-img3-mob.jpg 1x,
+                                    ./images/team-images/team-img3-mob-2x.jpg 2x
                                 "
                                 media="(min-width:320px)"
                                 />
                                 <img 
                                 class="team__image" 
-                                src="./images/team-image/team-img3.jpg" 
+                                src="./images/team-images/team-img3.jpg" 
                                 alt="Фото Николая Тарасова"
                                 />
                             </picture>
@@ -372,28 +400,28 @@
                             <picture>
                                 <source
                                     srcset="
-                                        ./images/team-image/team-img4.jpg 1x,
-                                        ./images/team-image/team-img4-2x.jpg 2x
+                                        ./images/team-images/team-img4.jpg 1x,
+                                        ./images/team-images/team-img4-2x.jpg 2x
                                     "
                                     media="(min-width:1200px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img4-tab.jpg 1x,
-                                    ./images/team-image/team-img4-tab-2x.jpg 2x
+                                    ./images/team-images/team-img4-tab.jpg 1x,
+                                    ./images/team-images/team-img4-tab-2x.jpg 2x
                                 "
                                 media="(min-width:768px)"
                                 />
                                 <source
                                 srcset="
-                                    ./images/team-image/team-img4-mob.jpg 1x,
-                                    ./images/team-image/team-img4-mob-2x.jpg 2x
+                                    ./images/team-images/team-img4-mob.jpg 1x,
+                                    ./images/team-images/team-img4-mob-2x.jpg 2x
                                 "
                                 media="(min-width:320px)"
                                 />
                                 <img 
                                 class="team__image" 
-                                src="./images/team-image/team-img4.jpg" 
+                                src="./images/team-images/team-img4.jpg" 
                                 alt="Фото Михаила Ермакова"
                                 />
                             </picture>
