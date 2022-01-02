@@ -26,7 +26,11 @@
 
 .address-container {
     text-align: center;
-    margin-bottom: 60px;
+    
+
+    @media screen and (max-width:767.9px) {
+        margin-bottom: 40px;
+    }
 
     @media screen and (min-width:1200px) {
         text-align: start;
@@ -55,10 +59,6 @@
     }
 }
 
-.join {
-    width: 206px;
-    margin-bottom: 60px;
-}
 .join__title {
     display: block;
     margin-bottom: 20px;
@@ -75,7 +75,12 @@
     }
 }
 
+.footer-form {
 
+    @media screen and (max-width:1199.9px) {
+        margin-top: 60px;
+        }
+}
 .footer-form__title {
     display: block;
     margin-bottom: 20px;
