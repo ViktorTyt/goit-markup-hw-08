@@ -30,10 +30,6 @@
 
 .portfolio-filter__btn {
     font-family: inherit;
-    // font-weight: 500;
-    // font-size: 16px;
-    // line-height: 1.62;
-    // letter-spacing: 0.03em;
     @include font ($fs:16px, $fw:500, $lh:1.62);
     text-align: center;
     color:var(--main-title-color);
@@ -114,17 +110,12 @@
 
 
 .portfolio__title {
-    // font-weight: 700;
-    // font-size: 18px;
-    // line-height: 2.00;
-    // letter-spacing: 0.06em;
+
     @include font ($fs:18px, $fw:700, $lh:2.00, $ls:0.06em);
     color: var(--main-title-color);
 }
 .portfolio__text {
-    // font-size: 16px;
-    // line-height: 1.87;
-    // letter-spacing: 0.03em;
+
     @include font ($fs:16px, $lh:1.87);
     color: var(--main-text-color);
 }
@@ -138,9 +129,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    // font-size: 18px;
-    // line-height: 1.56;
-    // letter-spacing: 0.03em;
+
     @include font ($fs:18px, $lh:1.56);
     height: 100%;
     padding: 63px 24px;
